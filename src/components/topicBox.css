@@ -1,0 +1,12 @@
+.topicBox{
+    background-color: aquamarine;
+    width: 80%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.text{
+    font-size: 30px;
+    font-family: Consolas, serif;
+    margin-left: 30px;
+}
