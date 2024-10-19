@@ -5,6 +5,7 @@ import ContainerNew from "./components/Container";
 import Buttons from './components/Button';
 import PaginationNew from "./components/Pagination";
 import TabsNew from "./components/Tab";
+import Event from './event handling/Event';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <PaginationNew />
 
           <TabsNew />
+
+          <Event />
 
       </div>
   )
