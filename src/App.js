@@ -6,6 +6,7 @@ import Buttons from './components/Button';
 import PaginationNew from "./components/Pagination";
 import TabsNew from "./components/Tab";
 import Event from './event handling/Event';
+import UseEffect from "./Use Effect/UseEffect";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <TabsNew />
 
           <Event />
+
+          <UseEffect />
 
       </div>
   )

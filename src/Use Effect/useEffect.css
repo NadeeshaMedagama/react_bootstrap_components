@@ -1,0 +1,39 @@
+.useEffect{
+    text-align: center;
+    background-color:   #ff80bf
+;
+}
+
+.count{
+    color: blue;
+}
+
+.buttons {
+    background: linear-gradient(45deg, #1aff1a, #ffff33);
+    border: 1px solid black;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background: linear-gradient(45deg, #ffff33, #1aff1a);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.buttons:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.symbol{
+    color: black;
+}
